@@ -3,3 +3,11 @@ fastapi==0.95.2
 pydantic==1.10.12
 uvicorn==0.22.0
 sqlalchemy==2.0.21
+
+# Versão compatível com fastapi 0.95.2 (usa Starlette 0.27.0)
+starlette==0.27.0
+
+# Pytest e ferramentas de teste
+pytest==7.4.4
+pytest-asyncio==0.21.1
+httpx==0.24.1
