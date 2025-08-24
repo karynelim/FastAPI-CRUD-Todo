@@ -10,4 +10,4 @@ def test_read_root():
 
     #pytest -s tests/test_main.py                                                                                                                            [ 16%]
     #pytest -s tests/test_todo.py
-    
+    #pytest --cov=. --cov-report=html
